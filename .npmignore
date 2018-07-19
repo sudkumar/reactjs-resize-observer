@@ -1,0 +1,7 @@
+src
+.babelrc
+.editorconfig
+.eslintrc
+.flowconfig
+lib/**/*.test.js
+docs
