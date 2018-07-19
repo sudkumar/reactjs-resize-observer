@@ -1,4 +1,4 @@
-# Counter
+# Resize Observer
 
 ### Installation
 
