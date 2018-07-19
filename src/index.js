@@ -26,7 +26,7 @@ interface ObserverInterface {
 
 type Props = {
   children: React.Node,
-  componentClass: string, // value to which counter should go, start from 0
+  componentClass: string,
   innerDomRef: (ref: ?HTMLElement) => void,
   onResize: (entry: entryType) => void,
 };
