@@ -1,6 +1,6 @@
 {
   "name": "reactjs-resize-observer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper react component to observe the resizing of the dom element",
   "main": "lib/index.js",
   "scripts": {
