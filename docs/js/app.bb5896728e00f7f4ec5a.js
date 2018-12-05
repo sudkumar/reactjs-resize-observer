@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "afcf6a32c9bf42bd9f4c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "bb5896728e00f7f4ec5a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -716,7 +716,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -728,24 +728,14 @@
 /******/ ({
 
 /***/ "./docs/src/App.js":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/index.js"));
-
-var _src = _interopRequireDefault(__webpack_require__("./src/index.js"));
-
-var _reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src__ = __webpack_require__("./src/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_hot_loader__ = __webpack_require__("./node_modules/react-hot-loader/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_hot_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_hot_loader__);
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
 
@@ -771,6 +761,10 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
 
 var App =
 /*#__PURE__*/
@@ -810,37 +804,37 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var contentRect = this.state.contentRect;
-      return _react.default.createElement("div", null, _react.default.createElement("div", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "hero text-center"
-      }, _react.default.createElement("h1", null, "A react component to observe resizing of a DOM component"), _react.default.createElement("p", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", null, "A react component to observe resizing of a DOM component"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         className: "text-center"
-      }, "Element with background color is wrapped inside Resize Observer component")), _react.default.createElement("textarea", {
+      }, "Element with background color is wrapped inside Resize Observer component")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         placeholder: "resize it. this will NOT trigger the resizing of out element."
-      }), _react.default.createElement("div", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         style: {
           display: 'flex'
         }
-      }, _react.default.createElement("div", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         style: {
           maxWidth: '50%'
         }
-      }, _react.default.createElement("textarea", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         placeholder: "resize it. this is an side element to our resizer observer",
         style: {
           maxWidht: '100%'
         }
-      })), _react.default.createElement("div", {
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         style: {
           flex: 1
         }
-      }, _react.default.createElement(_src.default, {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__src__["a" /* default */], {
         style: {
           background: 'gainsboro'
         },
         onResize: this.handleResize
-      }, _react.default.createElement("textarea", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         placeholder: "resize it. this is inside our resize observer"
-      }), _react.default.createElement("div", null, contentRect)))));
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, contentRect)))));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -852,12 +846,11 @@ function (_React$Component) {
   }]);
 
   return App;
-}(_react.default.Component);
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-var _default = (0, _reactHotLoader.hot)(module)(App);
+var _default = Object(__WEBPACK_IMPORTED_MODULE_2_react_hot_loader__["hot"])(module)(App);
 
-var _default2 = _default;
-exports.default = _default2;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
 (function () {
@@ -875,37 +868,36 @@ exports.default = _default2;
 })();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
 /***/ "./docs/src/main.js":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/index.js"));
-
-var _reactDom = _interopRequireDefault(__webpack_require__("./node_modules/react-dom/index.js"));
-
-var _App = _interopRequireDefault(__webpack_require__("./docs/src/App.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__("./node_modules/react-dom/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__App__ = __webpack_require__("./docs/src/App.js");
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
 
   enterModule && enterModule(module);
 })();
 
+
+
+
+
 function render(Component) {
   var mountNode = document.getElementById('root');
-
-  _reactDom.default.render(_react.default.createElement(Component, null), mountNode);
+  __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Component, null), mountNode);
 }
 
-render(_App.default);
+render(__WEBPACK_IMPORTED_MODULE_2__App__["a" /* default */]);
 ;
 
 (function () {
@@ -922,7 +914,7 @@ render(_App.default);
 })();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -1147,24 +1139,24 @@ module.exports = hoistNonReactStatics;
 
 /***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
+/***/ "./node_modules/node-libs-browser/node_modules/process/browser.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(2);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(0);
 
 /***/ }),
 
-/***/ "./node_modules/process/browser.js":
+/***/ "./node_modules/object-assign/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(0);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(1);
 
 /***/ }),
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(7);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(3);
 
 /***/ }),
 
@@ -1795,7 +1787,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   return ReactPropTypes;
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -1831,21 +1823,21 @@ if (process.env.NODE_ENV !== 'production') {
   module.exports = __webpack_require__("./node_modules/prop-types/factoryWithThrowingShims.js")();
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
 
 /***/ }),
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(15);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(9);
 
 /***/ }),
 
 /***/ "./node_modules/react-dom/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(16);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(10);
 
 /***/ }),
 
@@ -1925,8 +1917,21 @@ var isCompositeComponent = function isCompositeComponent(type) {
 };
 
 var getComponentDisplayName = function getComponentDisplayName(type) {
-  return type.displayName || type.name || 'Component';
+  var displayName = type.displayName || type.name;
+  return displayName && displayName !== 'ReactComponent' ? displayName : 'Component';
 };
+
+var reactLifeCycleMountMethods = ['componentWillMount', 'componentDidMount'];
+
+function isReactClass(Component) {
+  return !!(Component.prototype && (React__default.Component.prototype.isPrototypeOf(Component.prototype) ||
+  // react 14 support
+  Component.prototype.isReactComponent || Component.prototype.componentWillMount || Component.prototype.componentWillUnmount || Component.prototype.componentDidMount || Component.prototype.componentDidUnmount || Component.prototype.render));
+}
+
+function isReactClassInstance(Component) {
+  return Component && isReactClass({ prototype: Object.getPrototypeOf(Component) });
+}
 
 var getInternalInstance = function getInternalInstance(instance) {
   return instance._reactInternalFiber || // React 16
@@ -2034,17 +2039,6 @@ var logger = {
 
 /* eslint-disable no-eval, func-names */
 
-function getDisplayName(Component) {
-  var displayName = Component.displayName || Component.name;
-  return displayName && displayName !== 'ReactComponent' ? displayName : 'Component';
-}
-
-var reactLifeCycleMountMethods = ['componentWillMount', 'componentDidMount'];
-
-function isReactClass(Component) {
-  return Component.prototype && (Component.prototype.isReactComponent || Component.prototype.componentWillMount || Component.prototype.componentWillUnmount || Component.prototype.componentDidMount || Component.prototype.componentDidUnmount || Component.prototype.render);
-}
-
 function safeReactConstructor(Component, lastInstance) {
   try {
     if (lastInstance) {
@@ -2085,10 +2079,6 @@ var ES5ProxyComponentFactory = function ES5ProxyComponentFactory(InitialParent, 
   ProxyComponent.prototype = Object.create(InitialParent.prototype);
   Object.setPrototypeOf(ProxyComponent, InitialParent);
   return ProxyComponent;
-};
-
-var isReactComponentInstance = function isReactComponentInstance(el) {
-  return el && (typeof el === 'undefined' ? 'undefined' : _typeof(el)) === 'object' && !el.type && el.render;
 };
 
 var proxyClassCreator = doesSupportClasses ? ES6ProxyComponentFactory : ES5ProxyComponentFactory;
@@ -2326,6 +2316,13 @@ var defaultRenderOptions = {
   }
 };
 
+var filteredPrototypeMethods = function filteredPrototypeMethods(Proto) {
+  return Object.getOwnPropertyNames(Proto).filter(function (prop) {
+    var descriptor = Object.getOwnPropertyDescriptor(Proto, prop);
+    return descriptor && !prop.startsWith(PREFIX) && !blackListedClassMembers.includes(prop) && typeof descriptor.value === 'function';
+  });
+};
+
 var defineClassMember = function defineClassMember(Class, methodName, methodBody) {
   return safeDefineProperty(Class.prototype, methodName, {
     configurable: true,
@@ -2438,14 +2435,9 @@ function createClassProxy(InitialComponent, proxyKey, options) {
     }, realMethod);
   }
 
-  var fakeBasePrototype = function fakeBasePrototype(Base) {
-    return Object.getOwnPropertyNames(Base).filter(function (key) {
-      return blackListedClassMembers.indexOf(key) === -1;
-    }).filter(function (key) {
-      var descriptor = Object.getOwnPropertyDescriptor(Base, key);
-      return typeof descriptor.value === 'function';
-    }).reduce(function (acc, key) {
-      acc[key] = methodWrapperFactory(key, Base[key]);
+  var fakeBasePrototype = function fakeBasePrototype(Proto) {
+    return filteredPrototypeMethods(Proto).reduce(function (acc, key) {
+      acc[key] = methodWrapperFactory(key, Proto[key]);
       return acc;
     }, {});
   };
@@ -2546,7 +2538,7 @@ function createClassProxy(InitialComponent, proxyKey, options) {
       // This is a Relay-style container constructor. We can't do the prototype-
       // style wrapping for this as we do elsewhere, so just we just pass it
       // through as-is.
-      if (isReactComponentInstance(result)) {
+      if (isReactClassInstance(result)) {
         ProxyComponent = null;
 
         // Relay lazily sets statics like getDerivedStateFromProps on initial
@@ -2628,7 +2620,7 @@ function createClassProxy(InitialComponent, proxyKey, options) {
     CurrentComponent = NextComponent;
 
     // Try to infer displayName
-    var displayName = getDisplayName(CurrentComponent);
+    var displayName = getComponentDisplayName(CurrentComponent);
 
     safeDefineProperty(_ProxyFacade, 'displayName', {
       configurable: true,
@@ -2648,6 +2640,13 @@ function createClassProxy(InitialComponent, proxyKey, options) {
     if (isFunctionalComponent || !ProxyComponent) ; else {
       var classHotReplacement = function classHotReplacement() {
         checkLifeCycleMethods(ProxyComponent, NextComponent);
+        if (proxyGeneration > 1) {
+          filteredPrototypeMethods(ProxyComponent.prototype).forEach(function (methodName) {
+            if (!has.call(NextComponent.prototype, methodName)) {
+              delete ProxyComponent.prototype[methodName];
+            }
+          });
+        }
         Object.setPrototypeOf(ProxyComponent.prototype, NextComponent.prototype);
         defineProxyMethods(ProxyComponent, NextComponent.prototype);
         if (proxyGeneration > 1) {
@@ -2691,6 +2690,7 @@ function createClassProxy(InitialComponent, proxyKey, options) {
 
 var proxiesByID = void 0;
 var blackListedProxies = void 0;
+var registeredComponents = void 0;
 var idsByType = void 0;
 
 var elementCount = 0;
@@ -2703,12 +2703,22 @@ var generateTypeId = function generateTypeId() {
 var getIdByType = function getIdByType(type) {
   return idsByType.get(type);
 };
+var isProxyType = function isProxyType(type) {
+  return type[PROXY_KEY];
+};
 
 var getProxyById = function getProxyById(id) {
   return proxiesByID[id];
 };
 var getProxyByType = function getProxyByType(type) {
   return getProxyById(getIdByType(type));
+};
+
+var registerComponent = function registerComponent(type) {
+  return registeredComponents.set(type, 1);
+};
+var isRegisteredComponent = function isRegisteredComponent(type) {
+  return registeredComponents.has(type);
 };
 
 var setStandInOptions = function setStandInOptions(options) {
@@ -2742,6 +2752,7 @@ var resetProxies = function resetProxies() {
   proxiesByID = {};
   idsByType = new WeakMap();
   blackListedProxies = new WeakMap();
+  registeredComponents = new WeakMap();
   resetClassProxies();
 };
 
@@ -2767,7 +2778,7 @@ var preactAdapter = function preactAdapter(instance, resolveType) {
 /* eslint-disable no-use-before-define */
 
 function _resolveType(type) {
-  if (!isCompositeComponent(type) || isTypeBlacklisted(type)) return type;
+  if (!isCompositeComponent(type) || isTypeBlacklisted(type) || isProxyType(type)) return type;
 
   var proxy = reactHotLoader.disableProxyCreation ? getProxyByType(type) : createProxyForType(type);
 
@@ -2794,6 +2805,7 @@ var reactHotLoader = {
       }
 
       updateProxyById(id, type);
+      registerComponent(type);
     }
   },
   reset: function reset() {
@@ -2953,13 +2965,13 @@ var emptyMap = new Map();
 var stackContext = function stackContext() {
   return (renderStack[renderStack.length - 1] || {}).context || emptyMap;
 };
-
 var areNamesEqual = function areNamesEqual(a, b) {
   return a === b || UNDEFINED_NAMES[a] && UNDEFINED_NAMES[b];
 };
-var isReactClass$1 = function isReactClass(fn) {
-  return fn && !!fn.render;
+var shouldUseRenderMethod = function shouldUseRenderMethod(fn) {
+  return fn && (isReactClassInstance(fn) || fn.SFC_fake);
 };
+
 var isFunctional = function isFunctional(fn) {
   return typeof fn === 'function';
 };
@@ -2970,7 +2982,7 @@ var asArray = function asArray(a) {
   return isArray(a) ? a : [a];
 };
 var getTypeOf = function getTypeOf(type) {
-  if (isReactClass$1(type)) return 'ReactComponent';
+  if (isReactClass(type)) return 'ReactComponent';
   if (isFunctional(type)) return 'StatelessFunctional';
   return 'Fragment'; // ?
 };
@@ -3010,9 +3022,16 @@ var equalClasses = function equalClasses(a, b) {
 
   var hits = 0;
   var misses = 0;
+  var comparisons = 0;
   Object.getOwnPropertyNames(prototypeA).forEach(function (key) {
-    if (typeof prototypeA[key] === 'function' && key !== 'constructor') {
-      if (haveTextSimilarity(String(prototypeA[key]), String(prototypeB[key]))) {
+    var descriptorA = Object.getOwnPropertyDescriptor(prototypeA, key);
+    var valueA = descriptorA && (descriptorA.value || descriptorA.get || descriptorA.set);
+    var descriptorB = Object.getOwnPropertyDescriptor(prototypeB, key);
+    var valueB = descriptorB && (descriptorB.value || descriptorB.get || descriptorB.set);
+
+    if (typeof valueA === 'function' && key !== 'constructor') {
+      comparisons++;
+      if (haveTextSimilarity(String(valueA), String(valueB))) {
         hits++;
       } else {
         misses++;
@@ -3023,18 +3042,18 @@ var equalClasses = function equalClasses(a, b) {
     }
   });
   // allow to add or remove one function
-  return hits > 0 && misses <= 1;
+  return hits > 0 && misses <= 1 || comparisons === 0;
 };
 
-var isSwappable = function isSwappable(a, b) {
-  // both are registered components
+var areSwappable = function areSwappable(a, b) {
+  // both are registered components and have the same name
   if (getIdByType(b) && getIdByType(a) === getIdByType(b)) {
     return true;
   }
   if (getTypeOf(a) !== getTypeOf(b)) {
     return false;
   }
-  if (isReactClass$1(a.prototype)) {
+  if (isReactClass(a)) {
     return areNamesEqual(getComponentDisplayName(a), getComponentDisplayName(b)) && equalClasses(a, b);
   }
 
@@ -3049,7 +3068,7 @@ var render = function render(component) {
   if (!component) {
     return [];
   }
-  if (isReactClass$1(component)) {
+  if (shouldUseRenderMethod(component)) {
     // not calling real render method to prevent call recursion.
     // stateless components does not have hotComponentRender
     return component.hotComponentRender ? component.hotComponentRender() : component.render();
@@ -3171,7 +3190,7 @@ var scheduleInstanceUpdate = function scheduleInstanceUpdate(instance) {
 };
 
 var hotReplacementRender = function hotReplacementRender(instance, stack) {
-  if (isReactClass$1(instance)) {
+  if (isReactClassInstance(instance)) {
     var type = getElementType(stack);
 
     renderStack.push({
@@ -3194,7 +3213,7 @@ var hotReplacementRender = function hotReplacementRender(instance, stack) {
       var realProps = instance.props;
       var nextProps = _extends({}, realProps, child.nextProps || {}, child.props || {});
 
-      if (isReactClass$1(instance) && instance.componentWillUpdate) {
+      if (isReactClassInstance(instance) && instance.componentWillUpdate) {
         // Force-refresh component (bypass redux renderedComponent)
         instance.componentWillUpdate(_extends({}, realProps), instance.state);
       }
@@ -3269,7 +3288,7 @@ var hotReplacementRender = function hotReplacementRender(instance, stack) {
           throw new Error('React-hot-loader: wrong configuration');
         }
 
-        if (isSwappable(childType, stackChild.type)) {
+        if (isRegisteredComponent(childType) || isRegisteredComponent(stackChild.type)) ; else if (areSwappable(childType, stackChild.type)) {
           // they are both registered, or have equal code/displayname/signature
 
           // update proxy using internal PROXY_KEY
@@ -3286,7 +3305,7 @@ var hotReplacementRender = function hotReplacementRender(instance, stack) {
     }
   });
 
-  if (isReactClass$1(instance)) {
+  if (isReactClassInstance(instance)) {
     renderStack.pop();
   }
 };
@@ -3296,7 +3315,7 @@ var hotComponentCompare = function hotComponentCompare(oldType, newType) {
     return true;
   }
 
-  if (isSwappable(newType, oldType)) {
+  if (areSwappable(newType, oldType)) {
     getProxyByType(newType[UNWRAP_PROXY]()).dereference();
     updateProxyById(oldType[PROXY_KEY], newType[UNWRAP_PROXY]());
     updateProxyById(newType[PROXY_KEY], oldType[UNWRAP_PROXY]());
@@ -3472,7 +3491,7 @@ var enter = function enter(sourceModule) {
   if (sourceModule && sourceModule.id) {
     openedModules[sourceModule.id] = true;
   } else {
-    logger.warn('React-hot-loader: no `module` variable found. Do you shadow system variable?');
+    logger.warn('React-hot-loader: no `module` variable found. Did you shadow a system variable?');
   }
 };
 
@@ -3630,13 +3649,27 @@ function _interopDefault(t){return t&&"object"==typeof t&&"default"in t?t.defaul
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-if (!module.hot || process.env.NODE_ENV === 'production') {
+var evalAllowed = false;
+try {
+  eval('evalAllowed = true');
+} catch (e) {
+  // eval not allowed due to CSP
+}
+
+// RHL needs setPrototypeOf to operate Component inheritance, and eval to patch methods
+var platformSupported = !!Object.setPrototypeOf && evalAllowed;
+
+if (!module.hot || process.env.NODE_ENV === 'production' || !platformSupported) {
+  if (true) {
+    // we are not in prod mode, but RHL could not be activated
+    console.warn('React-Hot-Loaded is not supported in this environment');
+  }
   module.exports = __webpack_require__("./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
 } else {
   module.exports = __webpack_require__("./node_modules/react-hot-loader/dist/react-hot-loader.development.js");
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -3811,7 +3844,7 @@ function polyfill(Component) {
 /***/ "./node_modules/react/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571"))(5);
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(2);
 
 /***/ }),
 
@@ -3819,7 +3852,6 @@ module.exports = (__webpack_require__("dll-reference vendor_77f95b5035fab3712571
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(global) {/**
  * A collection of shims that provide minimal functionality of the ES6 collections.
  *
@@ -4843,7 +4875,7 @@ var index = (function () {
     return ResizeObserver;
 })();
 
-/* harmony default export */ __webpack_exports__["default"] = (index);
+/* harmony default export */ __webpack_exports__["a"] = (index);
 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/global.js")))
 
@@ -4923,29 +4955,39 @@ module.exports = __webpack_amd_options__;
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__("dll-reference vendor_7ceaad9280955cc8386f"))(5);
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
 /***/ (function(module, exports) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
+module.exports = function(originalModule) {
+	if(!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true,
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
 
 
 /***/ }),
@@ -4980,24 +5022,13 @@ module.exports = function(module) {
 /***/ }),
 
 /***/ "./src/index.js":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.ResizeObserver = void 0;
-
-var React = _interopRequireWildcard(__webpack_require__("./node_modules/react/index.js"));
-
-var _resizeObserverPolyfill = _interopRequireDefault(__webpack_require__("./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
+/* WEBPACK VAR INJECTION */(function(module) {/* unused harmony export ResizeObserver */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_resize_observer_polyfill__ = __webpack_require__("./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js");
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
 
@@ -5030,8 +5061,9 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-;
 
+
+;
 var ResizeObserver =
 /*#__PURE__*/
 function (_React$Component) {
@@ -5067,7 +5099,7 @@ function (_React$Component) {
     });
 
     var onResize = _this.props.onResize;
-    _this.observer = new _resizeObserverPolyfill.default(function (entries) {
+    _this.observer = new __WEBPACK_IMPORTED_MODULE_1_resize_observer_polyfill__["a" /* default */](function (entries) {
       var _iteratorNormalCompletion = true;
       var _didIteratorError = false;
       var _iteratorError = undefined;
@@ -5123,7 +5155,7 @@ function (_React$Component) {
           innerDomRef = _this$props.innerDomRef,
           otherProps = _objectWithoutProperties(_this$props, ["children", "componentClass", "onResize", "innerDomRef"]);
 
-      return React.createElement(Component, _extends({}, otherProps, {
+      return __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](Component, _extends({}, otherProps, {
         ref: this.setDomRef
       }), children);
     }
@@ -5137,17 +5169,14 @@ function (_React$Component) {
   }]);
 
   return ResizeObserver;
-}(React.Component);
-
-exports.ResizeObserver = ResizeObserver;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 _defineProperty(ResizeObserver, "defaultProps", {
   componentClass: 'div'
 });
 
 var _default = ResizeObserver;
-var _default2 = _default;
-exports.default = _default2;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
 (function () {
@@ -5165,7 +5194,7 @@ exports.default = _default2;
 })();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -5177,12 +5206,12 @@ module.exports = __webpack_require__("./docs/src/main.js");
 
 /***/ }),
 
-/***/ "dll-reference vendor_77f95b5035fab3712571":
+/***/ "dll-reference vendor_7ceaad9280955cc8386f":
 /***/ (function(module, exports) {
 
-module.exports = vendor_77f95b5035fab3712571;
+module.exports = vendor_7ceaad9280955cc8386f;
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.afcf6a32c9bf42bd9f4c.js.map
+//# sourceMappingURL=app.bb5896728e00f7f4ec5a.js.map
