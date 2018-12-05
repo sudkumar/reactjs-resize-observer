@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const InlineChunkWebpackPlugin = require('html-webpack-inline-chunk-plugin')
-const AutoDllPlugin = require('autodll-webpack-plugin')
 
 // const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 /**
@@ -29,16 +28,6 @@ const plugins = [
   }),
   new InlineChunkWebpackPlugin({
       inlineChunks: ['manifest']
-  }),
-  new AutoDllPlugin({
-    inject: true, // will inject the DLL bundles to index.html
-    filename: '[name].dll.js',
-    entry: {
-      vendor: [
-        'react',
-        'react-dom'
-      ]
-    }
   })
 ]
 

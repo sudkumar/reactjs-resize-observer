@@ -40,7 +40,6 @@
     "@babel/preset-env": "^7.0.0-beta.47",
     "@babel/preset-flow": "^7.0.0-beta.47",
     "@babel/preset-react": "^7.0.0-beta.47",
-    "autodll-webpack-plugin": "^0.3.9",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^8.0.0-beta.3",
